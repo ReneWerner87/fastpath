@@ -233,6 +233,8 @@ func checkCases(tParent *testing.T, parser Path, tcases []testcase) {
 }
 
 // go test -coverprofile "coverage.html" "github.com/renanbastos93/fastpath" . && go tool cover -func="coverage.html"
-// github.com/renanbastos93/fastpath/fastpath.go:20:       New             100.0%
-// github.com/renanbastos93/fastpath/fastpath.go:60:       Match           94.7%
-// total:                                                  (statements)    97.2%
+// github.com/renanbastos93/fastpath/fastpath.go:22:	New		     100.0%
+// github.com/renanbastos93/fastpath/fastpath.go:70:	Match		 100.0%
+// github.com/renanbastos93/fastpath/fastpath.go:121:	paramTrimmer 100.0%
+// github.com/renanbastos93/fastpath/fastpath.go:135:	findCharPos	 100.0%
+// total:							(statements)	                 100.0%
